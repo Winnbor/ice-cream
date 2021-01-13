@@ -1,0 +1,49 @@
+:root {
+  --txt-c-main: #000000;
+  --txt-c-light: #ffffff;
+  --txt-c-accent: #d41443;
+
+  --bg-c-main: #ffffff;
+  --bg-c-secondary: #fff5f6;
+  --bg-c-accent: #ffb8ca;
+}
+
+/* COMMON */
+
+body {
+  background-color: var(--bg-c-main);
+  font-family: 'DM Sans', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Titan One', cursive;
+}
+a {
+  text-decoration: none;
+}
+.unmarked-list {
+  list-style: none;
+}
+
+/* hero */
+
+.hero-header {
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 1.16;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--txt-c-light);
+}
+.hero-header span {
+  font-size: 58px;
+  line-height: 90.5%;
+  color: var(--txt-c-accent);
+}
+.bg-hero {
+  background-color: var(--bg-c-accent);
+}
